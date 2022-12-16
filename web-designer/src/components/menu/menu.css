@@ -1,0 +1,20 @@
+div {
+    font-weight: 500;
+    margin-right: 3em;
+    margin-left: 3em;
+    color: #fff;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(154,166,252,255);
+}
+.headerTitle {
+    display: flex;
+    justify-content: flex-start;
+}
+.optionsMenu {
+    display: flex;
+    align-items: center;
+}
