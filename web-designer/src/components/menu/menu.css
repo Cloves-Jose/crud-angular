@@ -1,7 +1,11 @@
+a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2em;
+    margin-left: 2em;
+}
 div {
     font-weight: 500;
-    margin-right: 3em;
-    margin-left: 3em;
     color: #fff;
 }
 .container {
@@ -13,8 +17,26 @@ div {
 .headerTitle {
     display: flex;
     justify-content: flex-start;
+    margin-right: 20em;
 }
 .optionsMenu {
     display: flex;
     align-items: center;
+}
+
+.buttonGetStarted {
+    background-color: rgba(119,79,236,255);
+    color: #fff;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 10px;
+    border-style: hidden;
+
+    margin-left: 2em;
+
+    font-weight: 700;
 }
