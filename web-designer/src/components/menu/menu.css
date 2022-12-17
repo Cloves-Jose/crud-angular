@@ -9,10 +9,13 @@ div {
     color: #fff;
 }
 .container {
+    background-color: rgba(154,166,252,255);
+}
+.containerBody {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(154,166,252,255);
+    padding-bottom: 15em;
 }
 .headerTitle {
     display: flex;
@@ -23,7 +26,6 @@ div {
     display: flex;
     align-items: center;
 }
-
 .buttonGetStarted {
     background-color: rgba(119,79,236,255);
     color: #fff;
@@ -39,4 +41,16 @@ div {
     margin-left: 2em;
 
     font-weight: 700;
+}
+.headerBody {
+    margin-left: 18em;
+    padding-bottom: 15em;
+}
+.contactUs {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.fromYou {
+    font-size: 30px;
+    margin-top: 0;
 }
