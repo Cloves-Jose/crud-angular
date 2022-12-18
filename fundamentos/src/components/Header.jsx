@@ -8,7 +8,7 @@ export default props => {
         <Fragment>
             <div className={styles.container}>
                 <div className={styles.title}>
-                    <h1>Aquameaca</h1>
+                    <h3>Aquameaca</h3>
                 </div>
                 <div className={styles.options}>
                     <a href="#" className={styles.info}>Informações</a>
